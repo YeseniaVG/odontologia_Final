@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//cdn.jsdelivr.net/npm/pouchdb@7.2.1/dist/pouchdb.min.js"></script>
+    <title>CONSULTORIO 'SMILE'</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="./manifest.json">
+    
+</head>
+<br>
+
+
+<BR>
+<body>
+ <h1>ODONTOLOGÍA INTEGRAL</h1> 
+<br>
+<div class="wrapper">
+    
+    <div class="inner">
+<div class="image-holder">
+ <BR>
+   <img src="Fond.jpg" alt="image">
+</div>
+
+<form id="formulario" onsubmit="alert('¿Los datos son correctos?')"  >
+  
+
+
+  <br>
+<h3  >AGENDAR CITA</h3>
+<hr>
+<BR>
+    <br>
+
+
+<div class="form-group">
+<input type="text" placeholder="Primer nombre" class="form-control" id="btnNom">
+<input type="text" placeholder="Segundo nombre" class="form-control" id="btnSeg">
+</div>
+
+<div class="form-wrapper">
+      <input type="text" placeholder="Apellidos" class="form-control" id="Ape">
+      
+</div>
+<div class="form-wrapper">
+    
+<input type="email" placeholder="Correo electrónico" class="form-control" id="Em">
+    
+</div>
+
+
+
+<div class="form-wrapper">
+    <select name="" id="Servicios" class="form-control" type="text" >
+        <option value="" disabled selected>Servicios</option>
+        <option value="limpiezaD">Limpieza dental</option>
+        <option value=" Ortodoncia">Ortodoncia</option>
+        <option value=" Blanqueamiento">Blanqueamiento dental</option>
+        <option value=" ExtracciónM">Extracción de molares</option>
+        <option value=" Endodoncia">Tratamiento de las raíces dentarias.</option>
+        <option value="OdontologiaP">Extracciones dentarias y cirugía de la boca</option>
+        <option value="TerapeuticaD">Tratamiento de las lesiones dentales</option>
+    </select>
+</div>
+
+
+<div class="form-wrapper">
+    <select name="" id="Fec" class="form-control" type="text" >
+        <option value="" disabled selected>Fechas disponibles</option>
+        <option value="Fecha_Uno">26 de Noviembre</option>
+        <option value="Fecha_Dos">29 de Noviembre</option>
+        <option value="Fecha_Tres">1 de Diciembre</option>
+        <option value="Fecha_Cua">4 de Diciembre</option>
+        <option value="Fecha_Cinco">7 de Diciembre</option>
+        <option value="Fecha_Seis">16 de Diciembre</option>
+    </select>
+  </div>
+   
+    <div class="form-wrapper">
+    <select name="" id="Hora" class="form-control" type="text">
+    
+        <option value="" disabled selected>Horarios disponibles</option>
+        <option value="Horario1">11:30 a.m.  </option>
+
+        </select>
+
+</div>
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+</div>
+</div>
+</div>
+</div>
+<button id="btnGuardar" type="submit" >Agendar Cita</button>  
+
+<!-- 
+<input type="text" placeholder="Nombre" id="txtNombre">
+<button id="btnGuardar">Guardar</button>
+<button id="btnConsultar">Consultar</button>
+<button id="btnActualizar">Actualizar</button>
+<button id="btnEliminar">Eliminar</button> -->
+
+
+<script src="main.js"></script>
+</body>
+</html>

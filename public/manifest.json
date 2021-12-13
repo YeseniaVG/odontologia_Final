@@ -1,0 +1,19 @@
+{
+    "theme_color": "blue",
+    "background_color": "blue",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "./index.html",
+    "start_url": "/index.html",
+    "name": "ODONTOLOGIA",
+    "short_name": "O_I",
+    "description": "Consulta al dentista",
+    "icons": [
+        {
+            "src": "./icons/Icono.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+   
+    ]
+}
